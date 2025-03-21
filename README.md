@@ -1,69 +1,8 @@
-- 일반적으로 사용하려면 프리 티어로 로그인 하면 SageMaker 2개월 무료 사용가능함!
-- 실습 링크 : https://aws.amazon.com/ko/getting-started/hands-on/machine-learning-tutorial-generate-predictions-without-writing-code/
-
-![image.png](attachment:a96c75f9-7721-4946-a8f0-7a0583d6e19a:image.png)
-
-![image.png](attachment:9befb5d7-dc07-45a2-b931-dfc23e911f13:image.png)
-
-![image.png](attachment:9b3ca3dd-7ade-4eca-b851-4b3b98d394ed:image.png)
-
-### My Models
-
-1. My Models 탭으로 이동한 후 모델 생성
-2. 데이터 선택
-    1. shipping-logs.csv 데이터 생성 → 배송 도착 날짜 예측 모델 생성
-
-![image.png](attachment:65125979-cd8a-46d3-87d8-cb872363944c:image.png)
-
-### 데이터에서 예측 열 선택(예측할 Target)
-
-![image.png](attachment:85f09bdd-9e69-4b33-8972-9d9724b22a5f:image.png)
-
-![image.png](attachment:6f80f0b6-06a3-4cd5-8cc0-1bdf4fa2d437:image.png)
-
-### 예측 모델 생성
-
-예측 모델은 Numeric model type으로 선택 → Target Column이 Numeric이기 때문
-
-![image.png](attachment:6b918dd1-eb85-4e7f-853b-5fefdd83ce2e:image.png)
-
-![image.png](attachment:3f9c83e5-4476-4527-a574-2522fab0946e:image.png)
-
-### Model Preview
-
-![image.png](attachment:f57d72e9-7b70-40ba-ac9d-6ddeafd13e9f:image.png)
-
-### Quick build
-
-약 3분 소요
-
-![image.png](attachment:003d5638-8171-446a-9a1e-f83211f60aeb:image.png)
-
-![image.png](attachment:a1a891fe-60ae-4bf7-b9cf-51c3957d81b5:image.png)
-
-![image.png](attachment:1bf9c2a9-9a3b-4a73-8cbc-1520947d46f4:image.png)
-
-### Predict Single
-
-![image.png](attachment:2fb2c143-b261-401a-8649-6b7d779acb53:image.png)
-
-![image.png](attachment:29cb3767-c109-4d57-9eb4-0b46cd52e43e:image.png)
-
-배송 도착 기간 : 약 14일로 예측
-
-### Predict Batch
-
-![image.png](attachment:4565a314-8e0e-4842-9771-7d90c4f3a263:image.png)
-
----
-
 ## SageMaker, CloudFormation을 활용한 Yolo 배포
 
 SageMaker : 머신 러닝 모델을 구축, 학습 및 배포하는 프로세스를 간소화하는 Amazon Web Services(AWS)의 머신 러닝 서비스
 
-![image.png](attachment:aaf5bb7f-8da0-42cc-a88f-633b9a6ca75d:image.png)
-
-![image.png](attachment:62582b3e-c073-47df-8262-18cd4299ebed:image.png)
+![image1](https://github.com/user-attachments/assets/dc577a31-57da-458b-9770-cea65d0e13bf)
 
 1. IAM 설정
     1. Amazon SageMaker, AWS CloudFormation 및 Amazon S3에 필요한 권한이 있는 IAM 역할이 필요
